@@ -5,6 +5,8 @@
 </style>
 
 <script>
+import Button from '@smui/button';
+
 let bread = 0;
 </script>
 
@@ -12,4 +14,4 @@ let bread = 0;
 Bread was clicked.
 {/if}
 
-<button on:click={ () => bread = 1}>Bread</button>
+<Button on:click={ () => bread = 1}>Bread</Button>
