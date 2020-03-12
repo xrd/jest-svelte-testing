@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sed -i 's/outros.c.push(() => {/outros \&\& outros.c.push(() => {/' node_modules/@smui/common/node_modules/svelte/internal/index.mjs
+sed -i 's/console.log/\/\/ console.log/' node_modules/@smui/ripple/Ripple.js
